@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aryan Jhamb - Information Technology Student</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cursor Follower -->
+    <div class="cursor-follower"></div>
+    
+    <!-- Floating Particles -->
+    <div class="particles-container"></div>
+    
+    <!-- Scroll Progress -->
+    <div class="scroll-progress"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Aryan Jhamb</div>
+            <div class="nav-menu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button id="darkModeToggle" class="dark-mode-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-greeting">Hello, I'm</div>
+                    <h1 class="hero-name">Aryan Jhamb</h1>
+                    <div class="hero-title">
+                        <span class="typing-text">Information Technology Student</span>
+                        <span class="cursor">|</span>
+                    </div>
+                    <p class="hero-description">
+                        Analytical and detail-oriented IT student with a strong foundation in C, C++, Python, and JavaScript. Experienced in developing web applications and solving complex coding challenges. Passionate about software development, cybersecurity, and AI-driven solutions.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" onclick="window.open('resume (31).pdf')">
+                            <i class="fas fa-download"></i>
+                            Download CV
+                        </button>
+                        <button class="btn btn-outline" onclick="window.location.href='#contact'">
+                            <i class="fas fa-envelope"></i>
+                            Get In Touch
+                        </button>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/aryanjhamb1" class="social-link" data-tooltip="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/aryanjhamb" class="social-link" data-tooltip="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:aryanjhamb.it26@gmail.com" class="social-link" data-tooltip="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-container">
+                        <img src="WhatsApp Image 2025-07-29 at 20.22.58_19432d62.jpg" alt="Profile" class="profile-img">
+                        <div class="floating-elements">
+                            <div class="floating-element code-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="floating-element design-icon">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <div class="floating-element lightning-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Analytical & Detail-Oriented IT Student</h3>
+                    <p>
+                        I am currently pursuing B.Tech in Information Technology at Jaipur Engineering College and Research Center (CGPA: 9.35, 2022–2026). I have a strong foundation in C, C++, Python, and JavaScript, and am passionate about web development, cybersecurity, and AI-driven solutions. I believe in continuous learning and enjoy solving complex coding challenges.
+                    </p>
+                    <p>
+                        When not coding, I enjoy mentoring, leading social initiatives, and playing chess.
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Alwar, Rajasthan, India</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>B.Tech (IT), JECRC Jaipur (2022–2026)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="650">800+</div>
+                        <div class="stat-label">Problems Solved</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="3">2</div>
+                        <div class="stat-label">Major Projects</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="3">3</div>
+                        <div class="stat-label">Years Volunteering</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-target="100">150+</div>
+                        <div class="stat-label">Students Impacted/Year</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card" data-skill="C" data-level="90">
+                    <div class="skill-header">
+                        <h3>C</h3>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="C++" data-level="90">
+                    <div class="skill-header">
+                        <h3>C++</h3>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="Python" data-level="88">
+                    <div class="skill-header">
+                        <h3>Python</h3>
+                        <span class="skill-percentage">88%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="88%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="JavaScript" data-level="85">
+                    <div class="skill-header">
+                        <h3>JavaScript</h3>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="HTML" data-level="85">
+                    <div class="skill-header">
+                        <h3>HTML</h3>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="CSS" data-level="80">
+                    <div class="skill-header">
+                        <h3>CSS</h3>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="React.js" data-level="80">
+                    <div class="skill-header">
+                        <h3>React.js</h3>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="Git/GitHub" data-level="80">
+                    <div class="skill-header">
+                        <h3>Git/GitHub</h3>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="MySQL" data-level="75">
+                    <div class="skill-header">
+                        <h3>MySQL</h3>
+                        <span class="skill-percentage">75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="VS Code" data-level="75">
+                    <div class="skill-header">
+                        <h3>VS Code</h3>
+                        <span class="skill-percentage">75%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="Postman" data-level="70">
+                    <div class="skill-header">
+                        <h3>Postman</h3>
+                        <span class="skill-percentage">70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="70%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="Pandas" data-level="70">
+                    <div class="skill-header">
+                        <h3>Pandas</h3>
+                        <span class="skill-percentage">70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="70%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="NumPy" data-level="70">
+                    <div class="skill-header">
+                        <h3>NumPy</h3>
+                        <span class="skill-percentage">70%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="70%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="NLTK" data-level="65">
+                    <div class="skill-header">
+                        <h3>NLTK</h3>
+                        <span class="skill-percentage">65%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="65%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="Scikit-learn" data-level="65">
+                    <div class="skill-header">
+                        <h3>Scikit-learn</h3>
+                        <span class="skill-percentage">65%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="65%"></div>
+                    </div>
+                </div>
+                <div class="skill-card" data-skill="Soft Skills" data-level="80">
+                    <div class="skill-header">
+                        <h3>Soft Skills</h3>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coding Achievements Section -->
+    <section class="achievements" id="achievements">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card leetcode-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>LeetCode, GFG, CodeStudio</h3>
+                    <div class="achievement-stats">800+ Problems Solved</div>
+                </div>
+                <div class="achievement-card chess-card" onclick="window.open('https://www.chess.com/member/aryanjhamb1', '_blank')" style="cursor:pointer;">
+                    <div class="achievement-icon">
+                        <i class="fas fa-chess"></i>
+                    </div>
+                    <h3>Chess Program Founder</h3>
+                    <div class="achievement-stats">Founded and led a chess program for 50+ underprivileged students (with ChessBase India)</div>
+                </div>
+                <div class="achievement-card zarurat-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>Zarurat Initiative</h3>
+                    <div class="achievement-stats">Taught students in Zarurat for 3+ years, delivering free primary education to 100+ underprivileged students annually</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-content" onclick="window.open('https://github.com/aryanjhamb/FrontEnd', '_blank')" style="cursor:pointer;"
+                    >
+                        <h3>DSA Progress Tracker</h3>
+                        <p>A web app to monitor coding journey across LeetCode, GFG, CodeStudio, HackerRank, etc. Features interactive dashboard, daily streaks, and sheet-completion tracking.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">API</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content" onclick="window.open('https://github.com/aryanjhamb/ML', '_blank')" style="cursor:pointer;">
+                        <h3>Fake News Detection System</h3>
+                        <p>Machine learning-based system to classify news articles as Real or Fake. Includes text cleaning, lemmatization, and evaluation using accuracy, precision, recall, and F1-score.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">NumPy</span>
+                            <span class="tech-tag">NLTK</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3>Weather Forecasting App</h3>
+                        <p>Weather web app that retrieves real-time weather data for any city using OpenWeatherMap API. Displays temperature, wind speed, and weather conditions in a user-friendly interface.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">OpenWeatherMap API</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="contact-subtitle">
+                Ready to bring your ideas to life? Let's discuss your project and create something extraordinary together.
+            </p>
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email Me</h3>
+                    <p>aryanjhamb.it26@gmail.com</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Call Me</h3>
+                    <p>+91-907-981-5922</p>
+                </div>
+            </div>
+            <div class="contact-buttons">
+                <button class="btn btn-primary" onclick="window.location.href='mailto:aryanjhamb.it26@gmail.com'">
+                    <i class="fas fa-envelope"></i>
+                    Send Message
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Aryan Jhamb</div>
+                <p class="footer-tagline">Information Technology Student • Web Developer • Problem Solver</p>
+                <div class="footer-social">
+                    <a href="https://github.com/aryanjhamb1" class="footer-social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/aryanjhamb1" class="footer-social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:aryanjhamb.it26@gmail.com" class="footer-social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <div class="footer-divider"></div>
+                <p class="footer-copyright">
+                    © 2025 Aryan Jhamb. All rights reserved. Made with ❤️ and lots of ☕
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
